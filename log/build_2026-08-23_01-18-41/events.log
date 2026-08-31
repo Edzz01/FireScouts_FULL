@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.000000] (firescout_robot) JobQueued: {'identifier': 'firescout_robot', 'dependencies': OrderedDict()}
+[0.000000] (firescout_robot) JobStarted: {'identifier': 'firescout_robot'}
+[0.110000] (-) TimerEvent: {}
+[0.219000] (-) TimerEvent: {}
+[0.328000] (-) TimerEvent: {}
+[0.438000] (-) TimerEvent: {}
+[0.563000] (-) TimerEvent: {}
+[0.672000] (-) TimerEvent: {}
+[0.781000] (-) TimerEvent: {}
+[0.891000] (-) TimerEvent: {}
+[1.016000] (-) TimerEvent: {}
+[1.125000] (-) TimerEvent: {}
+[1.235000] (-) TimerEvent: {}
+[1.344000] (-) TimerEvent: {}
+[1.453000] (-) TimerEvent: {}
+[1.563000] (-) TimerEvent: {}
+[1.672000] (-) TimerEvent: {}
+[1.781000] (-) TimerEvent: {}
+[1.891000] (-) TimerEvent: {}
+[2.016000] (-) TimerEvent: {}
+[2.125000] (-) TimerEvent: {}
+[2.235000] (-) TimerEvent: {}
+[2.360000] (-) TimerEvent: {}
+[2.469000] (-) TimerEvent: {}
+[2.578000] (-) TimerEvent: {}
+[2.688000] (-) TimerEvent: {}
+[2.797000] (-) TimerEvent: {}
+[2.906000] (-) TimerEvent: {}
+[3.016000] (-) TimerEvent: {}
+[3.125000] (-) TimerEvent: {}
+[3.235000] (-) TimerEvent: {}
+[3.344000] (-) TimerEvent: {}
+[3.453000] (-) TimerEvent: {}
+[3.563000] (-) TimerEvent: {}
+[3.672000] (-) TimerEvent: {}
+[3.781000] (-) TimerEvent: {}
+[3.891000] (-) TimerEvent: {}
+[4.000000] (-) TimerEvent: {}
+[4.110000] (-) TimerEvent: {}
+[4.219000] (-) TimerEvent: {}
+[4.328000] (-) TimerEvent: {}
+[4.453000] (-) TimerEvent: {}
+[4.563000] (-) TimerEvent: {}
+[4.672000] (-) TimerEvent: {}
+[4.781000] (-) TimerEvent: {}
+[4.891000] (-) TimerEvent: {}
+[5.016000] (-) TimerEvent: {}
+[5.125000] (-) TimerEvent: {}
+[5.235000] (-) TimerEvent: {}
+[5.344000] (-) TimerEvent: {}
+[5.469000] (-) TimerEvent: {}
+[5.578000] (-) TimerEvent: {}
+[5.688000] (-) TimerEvent: {}
+[5.797000] (-) TimerEvent: {}
+[5.906000] (-) TimerEvent: {}
+[6.016000] (-) TimerEvent: {}
+[6.125000] (-) TimerEvent: {}
+[6.235000] (-) TimerEvent: {}
+[6.344000] (-) TimerEvent: {}
+[6.453000] (-) TimerEvent: {}
+[6.563000] (-) TimerEvent: {}
+[6.672000] (-) TimerEvent: {}
+[6.781000] (-) TimerEvent: {}
+[6.891000] (-) TimerEvent: {}
+[7.000000] (-) TimerEvent: {}
+[7.110000] (-) TimerEvent: {}
+[7.219000] (-) TimerEvent: {}
+[7.328000] (-) TimerEvent: {}
+[7.438000] (-) TimerEvent: {}
+[7.547000] (-) TimerEvent: {}
+[7.656000] (-) TimerEvent: {}
+[7.766000] (-) TimerEvent: {}
+[7.875000] (-) TimerEvent: {}
+[7.985000] (-) TimerEvent: {}
+[8.094000] (-) TimerEvent: {}
+[8.203000] (-) TimerEvent: {}
+[8.313000] (-) TimerEvent: {}
+[8.375000] (firescout_robot) Command: {'cmd': ['C:\\pixi_ws\\.pixi\\envs\\default\\python.exe', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '..\\..\\build\\firescout_robot', 'build', '--build-base', 'C:\\FireScout_ROS\\build\\firescout_robot\\build', 'install', '--record', 'C:\\FireScout_ROS\\build\\firescout_robot\\install.log', '--single-version-externally-managed', 'install_data'], 'cwd': 'C:\\FireScout_ROS\\src\\firescout_robot', 'env': {'ALLUSERSPROFILE': 'C:\\ProgramData', 'AMENT_PREFIX_PATH': 'C:\\FireScout_ROS\\install\\firescout_robot;C:\\pixi_ws\\ros2-windows', 'APPDATA': 'C:\\Users\\edzzjoseph\\AppData\\Roaming', 'ChocolateyInstall': 'C:\\ProgramData\\chocolatey', 'ChocolateyLastPathUpdate': '134220334210144344', 'CMAKE_PREFIX_PATH': 'C:\\pixi_ws\\ros2-windows\\opt/gz_math_vendor;C:\\pixi_ws\\ros2-windows\\opt/gz_utils_vendor;C:\\pixi_ws\\ros2-windows\\opt/gz_cmake_vendor;C:\\pixi_ws\\ros2-windows', 'COLCON': '1', 'COLCON_PREFIX_PATH': 'C:\\FireScout_ROS\\install\\;C:\\pixi_ws\\ros2-windows\\', 'CommonProgramFiles': 'C:\\Program Files\\Common Files', 'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files', 'CommonProgramW6432': 'C:\\Program Files\\Common Files', 'COMPUTERNAME': 'EDZZLAPTOP', 'ComSpec': 'C:\\WINDOWS\\system32\\cmd.exe', 'CONDA_DEFAULT_ENV': 'pixi_ros2_jazzy', 'CONDA_PREFIX': 'C:\\pixi_ws\\.pixi\\envs\\default', 'CONDA_SHLVL': '1', 'DriverData': 'C:\\Windows\\System32\\Drivers\\DriverData', 'HOMEDRIVE': 'C:', 'HOMEPATH': '\\Users\\edzzjoseph', 'JAVA_HOME': 'C:\\java\\jdk-19.0.2', 'LOCALAPPDATA': 'C:\\Users\\edzzjoseph\\AppData\\Local', 'LOGONSERVER': '\\\\EDZZLAPTOP', 'NUMBER_OF_PROCESSORS': '12', 'OneDrive': 'C:\\Users\\edzzjoseph\\OneDrive', 'OS': 'Windows_NT', 'Path': 'C:\\pixi_ws\\ros2-windows\\opt/rviz_ogre_vendor/lib;C:\\pixi_ws\\ros2-windows\\opt/rviz_ogre_vendor/bin;C:\\pixi_ws\\ros2-windows\\opt/mimick_vendor/lib;C:\\pixi_ws\\ros2-windows\\opt/liblz4_vendor/lib;C:\\pixi_ws\\ros2-windows\\opt/liblz4_vendor/bin;C:\\pixi_ws\\ros2-windows\\opt/gz_math_vendor/lib;C:\\pixi_ws\\ros2-windows\\opt/gz_math_vendor/bin;C:\\pixi_ws\\ros2-windows\\opt/gz_utils_vendor/lib;C:\\pixi_ws\\ros2-windows\\opt/gz_utils_vendor/bin;C:\\pixi_ws\\ros2-windows\\opt/gz_cmake_vendor/lib;C:\\pixi_ws\\ros2-windows\\opt/gz_cmake_vendor/bin;C:\\pixi_ws\\ros2-windows\\bin;C:\\pixi_ws\\ros2-windows\\Scripts;C:\\pixi_ws\\.pixi\\envs\\default;C:\\pixi_ws\\.pixi\\envs\\default\\Library/mingw-w64/bin;C:\\pixi_ws\\.pixi\\envs\\default\\Library/usr/bin;C:\\pixi_ws\\.pixi\\envs\\default\\Library/bin;C:\\pixi_ws\\.pixi\\envs\\default\\Scripts;C:\\pixi_ws\\.pixi\\envs\\default\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\java\\jdk-19.0.2\\bin;C:\\Users\\edzzjoseph\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\;C:\\Users\\edzzjoseph\\AppData\\Local\\Programs\\Python\\Python312\\;C:\\Users\\edzzjoseph\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\edzzjoseph\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\edzzjoseph\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\edzzjoseph\\Downloads\\Flutter SDK\\flutter\\bin;C:\\Users\\edzzjoseph\\AppData\\Local\\PowerToys\\DSCModules\\;C:\\Users\\edzzjoseph\\.local\\bin;C:\\Users\\edzzjoseph\\AppData\\Local\\Programs\\Ollama;C:\\ProgramData\\edzzjoseph\\GitHubDesktop\\bin;C:\\Users\\edzzjoseph\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\edzzjoseph\\AppData\\Local\\pixi\\bin\\;C:\\Users\\edzzjoseph\\.pixi\\bin', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC', 'PIXI_ENVIRONMENT_NAME': 'default', 'PIXI_ENVIRONMENT_PLATFORMS': 'win-64', 'PIXI_EXE': 'C:\\Users\\edzzjoseph\\AppData\\Local\\pixi\\bin\\pixi.exe', 'PIXI_IN_SHELL': '1', 'PIXI_PROJECT_MANIFEST': 'C:\\pixi_ws\\pixi.toml', 'PIXI_PROJECT_NAME': 'pixi_ros2_jazzy', 'PIXI_PROJECT_ROOT': 'C:\\pixi_ws', 'PIXI_PROJECT_VERSION': '0.1.0', 'PIXI_PROMPT': '(pixi_ros2_jazzy)', 'PKG_CONFIG_PATH': 'C:\\pixi_ws\\ros2-windows\\lib\\pkgconfig', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'PROCESSOR_IDENTIFIER': 'AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD', 'PROCESSOR_LEVEL': '25', 'PROCESSOR_REVISION': '5000', 'ProgramData': 'C:\\ProgramData', 'ProgramFiles': 'C:\\Program Files', 'ProgramFiles(x86)': 'C:\\Program Files (x86)', 'ProgramW6432': 'C:\\Program Files', 'PROMPT': '(pixi_ros2_jazzy) $P$G', 'PSModulePath': 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules', 'PUBLIC': 'C:\\Users\\Public', 'PYTHONPATH': 'C:\\FireScout_ROS\\build\\firescout_robot\\prefix_override;C:\\pixi_ws\\.pixi\\envs\\default\\Lib\\site-packages\\colcon_core\\task\\python\\colcon_distutils_commands;C:\\FireScout_ROS\\install\\firescout_robot\\Lib\\site-packages;C:\\FireScout_ROS\\install\\firescout_robot\\Lib\\site-packages;C:\\pixi_ws\\ros2-windows\\Lib\\site-packages', 'QT_QPA_PLATFORM_PLUGIN_PATH': 'C:\\pixi_ws\\.pixi\\envs\\default\\Library\\plugins\\platforms', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'ROS_DISTRO': 'jazzy', 'ROS_DOMAIN_ID': '10', 'ROS_PYTHON_VERSION': '3', 'ROS_VERSION': '2', 'SSL_CERT_DIR': 'C:\\pixi_ws\\.pixi\\envs\\default\\Library\\ssl\\certs', 'SSL_CERT_FILE': 'C:\\pixi_ws\\.pixi\\envs\\default\\Library\\ssl\\cacert.pem', 'SystemDrive': 'C:', 'SystemRoot': 'C:\\WINDOWS', 'TEMP': 'C:\\Users\\EDZZJO~1\\AppData\\Local\\Temp', 'TMP': 'C:\\Users\\EDZZJO~1\\AppData\\Local\\Temp', 'USERDOMAIN': 'EdzzLaptop', 'USERDOMAIN_ROAMINGPROFILE': 'EdzzLaptop', 'USERNAME': 'edzzjoseph', 'USERPROFILE': 'C:\\Users\\edzzjoseph', 'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE': '1', 'windir': 'C:\\WINDOWS', 'XML_CATALOG_FILES': 'file:///C:/pixi_ws/.pixi/envs/default/etc/xml/catalog', '__CONDA_OPENSSL_CERT_DIR_SET': '1', '__CONDA_OPENSSL_CERT_FILE_SET': '1'}, 'shell': False}
+[8.422000] (-) TimerEvent: {}
+[8.531000] (-) TimerEvent: {}
+[8.641000] (-) TimerEvent: {}
+[8.750000] (-) TimerEvent: {}
+[8.860000] (-) TimerEvent: {}
+[8.969000] (-) TimerEvent: {}
+[9.078000] (-) TimerEvent: {}
+[9.203000] (-) TimerEvent: {}
+[9.313000] (-) TimerEvent: {}
+[9.422000] (-) TimerEvent: {}
+[9.547000] (-) TimerEvent: {}
+[9.656000] (-) TimerEvent: {}
+[9.781000] (-) TimerEvent: {}
+[9.891000] (-) TimerEvent: {}
+[10.000000] (-) TimerEvent: {}
+[10.110000] (-) TimerEvent: {}
+[10.219000] (-) TimerEvent: {}
+[10.235000] (firescout_robot) StdoutLine: {'line': b'running egg_info\r\n'}
+[10.328000] (-) TimerEvent: {}
+[10.344000] (firescout_robot) StdoutLine: {'line': b'writing ..\\..\\build\\firescout_robot\\firescout_robot.egg-info\\PKG-INFO\r\n'}
+[10.344000] (firescout_robot) StdoutLine: {'line': b'writing dependency_links to ..\\..\\build\\firescout_robot\\firescout_robot.egg-info\\dependency_links.txt\r\n'}
+[10.344000] (firescout_robot) StdoutLine: {'line': b'writing entry points to ..\\..\\build\\firescout_robot\\firescout_robot.egg-info\\entry_points.txt\r\n'}
+[10.344000] (firescout_robot) StdoutLine: {'line': b'writing requirements to ..\\..\\build\\firescout_robot\\firescout_robot.egg-info\\requires.txt\r\n'}
+[10.344000] (firescout_robot) StdoutLine: {'line': b'writing top-level names to ..\\..\\build\\firescout_robot\\firescout_robot.egg-info\\top_level.txt\r\n'}
+[10.453000] (-) TimerEvent: {}
+[10.563000] (-) TimerEvent: {}
+[10.610000] (firescout_robot) StdoutLine: {'line': b"reading manifest file '..\\..\\build\\firescout_robot\\firescout_robot.egg-info\\SOURCES.txt'\r\n"}
+[10.625000] (firescout_robot) StdoutLine: {'line': b"writing manifest file '..\\..\\build\\firescout_robot\\firescout_robot.egg-info\\SOURCES.txt'\r\n"}
+[10.625000] (firescout_robot) StdoutLine: {'line': b'running build\r\n'}
+[10.625000] (firescout_robot) StdoutLine: {'line': b'running build_py\r\n'}
+[10.625000] (firescout_robot) StdoutLine: {'line': b'running install\r\n'}
+[10.625000] (firescout_robot) StdoutLine: {'line': b'running install_lib\r\n'}
+[10.672000] (-) TimerEvent: {}
+[10.766000] (firescout_robot) StdoutLine: {'line': b'running install_data\r\n'}
+[10.766000] (firescout_robot) StdoutLine: {'line': b'running install_egg_info\r\n'}
+[10.781000] (-) TimerEvent: {}
+[10.891000] (-) TimerEvent: {}
+[10.891000] (firescout_robot) StdoutLine: {'line': b"removing 'C:\\FireScout_ROS\\install\\firescout_robot\\Lib\\site-packages\\firescout_robot-0.0.0-py3.12.egg-info' (and everything under it)\r\n"}
+[10.906000] (firescout_robot) StdoutLine: {'line': b'Copying ..\\..\\build\\firescout_robot\\firescout_robot.egg-info to C:\\FireScout_ROS\\install\\firescout_robot\\Lib\\site-packages\\firescout_robot-0.0.0-py3.12.egg-info\r\n'}
+[10.953000] (firescout_robot) StdoutLine: {'line': b'running install_scripts\r\n'}
+[11.000000] (-) TimerEvent: {}
+[11.110000] (-) TimerEvent: {}
+[11.219000] (-) TimerEvent: {}
+[11.328000] (-) TimerEvent: {}
+[11.438000] (-) TimerEvent: {}
+[11.547000] (-) TimerEvent: {}
+[11.656000] (-) TimerEvent: {}
+[11.766000] (-) TimerEvent: {}
+[11.781000] (firescout_robot) StdoutLine: {'line': b'Installing arduino_bridge-script.py script to C:\\FireScout_ROS\\install\\firescout_robot\\lib\\firescout_robot\r\n'}
+[11.828000] (firescout_robot) StdoutLine: {'line': b'Installing arduino_bridge.exe script to C:\\FireScout_ROS\\install\\firescout_robot\\lib\\firescout_robot\r\n'}
+[11.828000] (firescout_robot) StdoutLine: {'line': b'Installing fire_decision-script.py script to C:\\FireScout_ROS\\install\\firescout_robot\\lib\\firescout_robot\r\n'}
+[11.844000] (firescout_robot) StdoutLine: {'line': b'Installing fire_decision.exe script to C:\\FireScout_ROS\\install\\firescout_robot\\lib\\firescout_robot\r\n'}
+[11.844000] (firescout_robot) StdoutLine: {'line': b'Installing motor_controller-script.py script to C:\\FireScout_ROS\\install\\firescout_robot\\lib\\firescout_robot\r\n'}
+[11.844000] (firescout_robot) StdoutLine: {'line': b'Installing motor_controller.exe script to C:\\FireScout_ROS\\install\\firescout_robot\\lib\\firescout_robot\r\n'}
+[11.844000] (firescout_robot) StdoutLine: {'line': b'Installing robot_controller-script.py script to C:\\FireScout_ROS\\install\\firescout_robot\\lib\\firescout_robot\r\n'}
+[11.844000] (firescout_robot) StdoutLine: {'line': b'Installing robot_controller.exe script to C:\\FireScout_ROS\\install\\firescout_robot\\lib\\firescout_robot\r\n'}
+[11.844000] (firescout_robot) StdoutLine: {'line': b'Installing robot_state-script.py script to C:\\FireScout_ROS\\install\\firescout_robot\\lib\\firescout_robot\r\n'}
+[11.844000] (firescout_robot) StdoutLine: {'line': b'Installing robot_state.exe script to C:\\FireScout_ROS\\install\\firescout_robot\\lib\\firescout_robot\r\n'}
+[11.860000] (firescout_robot) StdoutLine: {'line': b'Installing robot_status-script.py script to C:\\FireScout_ROS\\install\\firescout_robot\\lib\\firescout_robot\r\n'}
+[11.860000] (firescout_robot) StdoutLine: {'line': b'Installing robot_status.exe script to C:\\FireScout_ROS\\install\\firescout_robot\\lib\\firescout_robot\r\n'}
+[11.860000] (firescout_robot) StdoutLine: {'line': b'Installing sensor_simulator-script.py script to C:\\FireScout_ROS\\install\\firescout_robot\\lib\\firescout_robot\r\n'}
+[11.860000] (firescout_robot) StdoutLine: {'line': b'Installing sensor_simulator.exe script to C:\\FireScout_ROS\\install\\firescout_robot\\lib\\firescout_robot\r\n'}
+[11.860000] (firescout_robot) StdoutLine: {'line': b'Installing web_bridge-script.py script to C:\\FireScout_ROS\\install\\firescout_robot\\lib\\firescout_robot\r\n'}
+[11.860000] (firescout_robot) StdoutLine: {'line': b'Installing web_bridge.exe script to C:\\FireScout_ROS\\install\\firescout_robot\\lib\\firescout_robot\r\n'}
+[11.860000] (firescout_robot) StdoutLine: {'line': b"writing list of installed files to 'C:\\FireScout_ROS\\build\\firescout_robot\\install.log'\r\n"}
+[11.891000] (-) TimerEvent: {}
+[11.922000] (firescout_robot) CommandEnded: {'returncode': 0}
+[12.000000] (-) TimerEvent: {}
+[12.031000] (firescout_robot) JobEnded: {'identifier': 'firescout_robot', 'rc': 0}
+[12.031000] (-) EventReactorShutdown: {}

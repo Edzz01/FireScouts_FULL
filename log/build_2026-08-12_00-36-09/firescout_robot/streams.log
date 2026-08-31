@@ -1,0 +1,29 @@
+[2.547s] Invoking command in 'C:\FireScout_ROS\src\firescout_robot': PIXI_PROMPT=(pixi_ros2_jazzy) PYTHONPATH=C:\FireScout_ROS\build\firescout_robot\prefix_override;C:\pixi_ws\.pixi\envs\default\Lib\site-packages\colcon_core\task\python\colcon_distutils_commands;C:\FireScout_ROS\install\firescout_robot\Lib\site-packages;%PYTHONPATH% C:\pixi_ws\.pixi\envs\default\python.exe -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ..\..\build\firescout_robot build --build-base C:\FireScout_ROS\build\firescout_robot\build install --record C:\FireScout_ROS\build\firescout_robot\install.log --single-version-externally-managed install_data
+[3.407s] running egg_info
+[3.469s] writing ..\..\build\firescout_robot\firescout_robot.egg-info\PKG-INFO
+[3.469s] writing dependency_links to ..\..\build\firescout_robot\firescout_robot.egg-info\dependency_links.txt
+[3.469s] writing entry points to ..\..\build\firescout_robot\firescout_robot.egg-info\entry_points.txt
+[3.469s] writing requirements to ..\..\build\firescout_robot\firescout_robot.egg-info\requires.txt
+[3.469s] writing top-level names to ..\..\build\firescout_robot\firescout_robot.egg-info\top_level.txt
+[3.594s] reading manifest file '..\..\build\firescout_robot\firescout_robot.egg-info\SOURCES.txt'
+[3.594s] writing manifest file '..\..\build\firescout_robot\firescout_robot.egg-info\SOURCES.txt'
+[3.594s] running build
+[3.594s] running build_py
+[3.594s] copying firescout_robot\fire_decision.py -> C:\FireScout_ROS\build\firescout_robot\build\lib\firescout_robot
+[3.610s] running install
+[3.610s] running install_lib
+[3.672s] copying C:\FireScout_ROS\build\firescout_robot\build\lib\firescout_robot\fire_decision.py -> C:\FireScout_ROS\install\firescout_robot\Lib\site-packages\firescout_robot
+[3.672s] byte-compiling C:\FireScout_ROS\install\firescout_robot\Lib\site-packages\firescout_robot\fire_decision.py to fire_decision.cpython-312.pyc
+[3.688s] running install_data
+[3.688s] running install_egg_info
+[3.735s] removing 'C:\FireScout_ROS\install\firescout_robot\Lib\site-packages\firescout_robot-0.0.0-py3.12.egg-info' (and everything under it)
+[3.750s] Copying ..\..\build\firescout_robot\firescout_robot.egg-info to C:\FireScout_ROS\install\firescout_robot\Lib\site-packages\firescout_robot-0.0.0-py3.12.egg-info
+[3.766s] running install_scripts
+[4.157s] Installing fire_decision-script.py script to C:\FireScout_ROS\install\firescout_robot\lib\firescout_robot
+[4.157s] Installing fire_decision.exe script to C:\FireScout_ROS\install\firescout_robot\lib\firescout_robot
+[4.157s] Installing robot_status-script.py script to C:\FireScout_ROS\install\firescout_robot\lib\firescout_robot
+[4.157s] Installing robot_status.exe script to C:\FireScout_ROS\install\firescout_robot\lib\firescout_robot
+[4.157s] Installing sensor_simulator-script.py script to C:\FireScout_ROS\install\firescout_robot\lib\firescout_robot
+[4.157s] Installing sensor_simulator.exe script to C:\FireScout_ROS\install\firescout_robot\lib\firescout_robot
+[4.172s] writing list of installed files to 'C:\FireScout_ROS\build\firescout_robot\install.log'
+[4.219s] Invoked command in 'C:\FireScout_ROS\src\firescout_robot' returned '0': PIXI_PROMPT=(pixi_ros2_jazzy) PYTHONPATH=C:\FireScout_ROS\build\firescout_robot\prefix_override;C:\pixi_ws\.pixi\envs\default\Lib\site-packages\colcon_core\task\python\colcon_distutils_commands;C:\FireScout_ROS\install\firescout_robot\Lib\site-packages;%PYTHONPATH% C:\pixi_ws\.pixi\envs\default\python.exe -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ..\..\build\firescout_robot build --build-base C:\FireScout_ROS\build\firescout_robot\build install --record C:\FireScout_ROS\build\firescout_robot\install.log --single-version-externally-managed install_data

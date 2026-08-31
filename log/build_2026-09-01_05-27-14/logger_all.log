@@ -1,0 +1,254 @@
+[4.880s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['C:\\pixi_ws\\.pixi\\envs\\default\\Scripts\\colcon', 'build', '--packages-select', 'firescout_robot'][0m
+[4.881s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['firescout_robot'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x000002151A3DFEF0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x000002151A3B4E60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x000002151A3B4E60>>, mixin_verb=('build',))[0m
+[5.306s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[5.306s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[5.306s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[5.308s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[5.308s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[5.308s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[5.308s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in 'C:\FireScout_ROS'
+[5.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[5.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[5.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[5.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[5.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[5.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[5.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[5.312s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[5.562s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[5.562s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[5.562s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[5.562s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[5.562s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[5.569s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts) by extensions ['ignore', 'ignore_ament_install']
+[5.569s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts) by extension 'ignore'
+[5.571s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts) by extension 'ignore_ament_install'
+[5.571s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts) by extensions ['colcon_pkg']
+[5.571s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts) by extension 'colcon_pkg'
+[5.571s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts) by extensions ['colcon_meta']
+[5.572s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts) by extension 'colcon_meta'
+[5.572s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts) by extensions ['ros']
+[5.572s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts) by extension 'ros'
+[5.573s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts) by extensions ['cmake', 'python']
+[5.573s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts) by extension 'cmake'
+[5.573s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts) by extension 'python'
+[5.573s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts) by extensions ['python_setup_py']
+[5.573s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts) by extension 'python_setup_py'
+[5.575s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[5.575s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\__pycache__) by extension 'ignore'
+[5.575s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\__pycache__) by extension 'ignore_ament_install'
+[5.577s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\__pycache__) by extensions ['colcon_pkg']
+[5.577s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\__pycache__) by extension 'colcon_pkg'
+[5.577s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\__pycache__) by extensions ['colcon_meta']
+[5.577s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\__pycache__) by extension 'colcon_meta'
+[5.577s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\__pycache__) by extensions ['ros']
+[5.577s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\__pycache__) by extension 'ros'
+[5.577s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\__pycache__) by extensions ['cmake', 'python']
+[5.577s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\__pycache__) by extension 'cmake'
+[5.579s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\__pycache__) by extension 'python'
+[5.579s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\__pycache__) by extensions ['python_setup_py']
+[5.580s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\__pycache__) by extension 'python_setup_py'
+[5.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\database) by extensions ['ignore', 'ignore_ament_install']
+[5.582s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\database) by extension 'ignore'
+[5.582s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\database) by extension 'ignore_ament_install'
+[5.582s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\database) by extensions ['colcon_pkg']
+[5.582s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\database) by extension 'colcon_pkg'
+[5.582s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\database) by extensions ['colcon_meta']
+[5.582s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\database) by extension 'colcon_meta'
+[5.582s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\database) by extensions ['ros']
+[5.582s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\database) by extension 'ros'
+[5.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\database) by extensions ['cmake', 'python']
+[5.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\database) by extension 'cmake'
+[5.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\database) by extension 'python'
+[5.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\database) by extensions ['python_setup_py']
+[5.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\database) by extension 'python_setup_py'
+[5.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes) by extensions ['ignore', 'ignore_ament_install']
+[5.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes) by extension 'ignore'
+[5.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes) by extension 'ignore_ament_install'
+[5.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes) by extensions ['colcon_pkg']
+[5.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes) by extension 'colcon_pkg'
+[5.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes) by extensions ['colcon_meta']
+[5.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes) by extension 'colcon_meta'
+[5.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes) by extensions ['ros']
+[5.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes) by extension 'ros'
+[5.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes) by extensions ['cmake', 'python']
+[5.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes) by extension 'cmake'
+[5.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes) by extension 'python'
+[5.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes) by extensions ['python_setup_py']
+[5.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes) by extension 'python_setup_py'
+[5.590s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes\__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[5.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes\__pycache__) by extension 'ignore'
+[5.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes\__pycache__) by extension 'ignore_ament_install'
+[5.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes\__pycache__) by extensions ['colcon_pkg']
+[5.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes\__pycache__) by extension 'colcon_pkg'
+[5.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes\__pycache__) by extensions ['colcon_meta']
+[5.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes\__pycache__) by extension 'colcon_meta'
+[5.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes\__pycache__) by extensions ['ros']
+[5.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes\__pycache__) by extension 'ros'
+[5.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes\__pycache__) by extensions ['cmake', 'python']
+[5.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes\__pycache__) by extension 'cmake'
+[5.594s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes\__pycache__) by extension 'python'
+[5.594s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes\__pycache__) by extensions ['python_setup_py']
+[5.594s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\routes\__pycache__) by extension 'python_setup_py'
+[5.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static) by extensions ['ignore', 'ignore_ament_install']
+[5.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static) by extension 'ignore'
+[5.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static) by extension 'ignore_ament_install'
+[5.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static) by extensions ['colcon_pkg']
+[5.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static) by extension 'colcon_pkg'
+[5.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static) by extensions ['colcon_meta']
+[5.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static) by extension 'colcon_meta'
+[5.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static) by extensions ['ros']
+[5.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static) by extension 'ros'
+[5.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static) by extensions ['cmake', 'python']
+[5.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static) by extension 'cmake'
+[5.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static) by extension 'python'
+[5.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static) by extensions ['python_setup_py']
+[5.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static) by extension 'python_setup_py'
+[5.598s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\css) by extensions ['ignore', 'ignore_ament_install']
+[5.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\css) by extension 'ignore'
+[5.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\css) by extension 'ignore_ament_install'
+[5.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\css) by extensions ['colcon_pkg']
+[5.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\css) by extension 'colcon_pkg'
+[5.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\css) by extensions ['colcon_meta']
+[5.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\css) by extension 'colcon_meta'
+[5.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\css) by extensions ['ros']
+[5.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\css) by extension 'ros'
+[5.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\css) by extensions ['cmake', 'python']
+[5.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\css) by extension 'cmake'
+[5.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\css) by extension 'python'
+[5.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\css) by extensions ['python_setup_py']
+[5.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\css) by extension 'python_setup_py'
+[5.606s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\js) by extensions ['ignore', 'ignore_ament_install']
+[5.606s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\js) by extension 'ignore'
+[5.606s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\js) by extension 'ignore_ament_install'
+[5.607s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\js) by extensions ['colcon_pkg']
+[5.607s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\js) by extension 'colcon_pkg'
+[5.607s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\js) by extensions ['colcon_meta']
+[5.607s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\js) by extension 'colcon_meta'
+[5.607s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\js) by extensions ['ros']
+[5.607s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\js) by extension 'ros'
+[5.608s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\js) by extensions ['cmake', 'python']
+[5.608s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\js) by extension 'cmake'
+[5.608s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\js) by extension 'python'
+[5.608s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\js) by extensions ['python_setup_py']
+[5.608s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\static\js) by extension 'python_setup_py'
+[5.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\templates) by extensions ['ignore', 'ignore_ament_install']
+[5.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\templates) by extension 'ignore'
+[5.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\templates) by extension 'ignore_ament_install'
+[5.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\templates) by extensions ['colcon_pkg']
+[5.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\templates) by extension 'colcon_pkg'
+[5.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\templates) by extensions ['colcon_meta']
+[5.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\templates) by extension 'colcon_meta'
+[5.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\templates) by extensions ['ros']
+[5.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\templates) by extension 'ros'
+[5.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\templates) by extensions ['cmake', 'python']
+[5.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\templates) by extension 'cmake'
+[5.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\templates) by extension 'python'
+[5.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\templates) by extensions ['python_setup_py']
+[5.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(FireScouts\templates) by extension 'python_setup_py'
+[5.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[5.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[5.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[5.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[5.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[5.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[5.622s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extensions ['ignore', 'ignore_ament_install']
+[5.622s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extension 'ignore'
+[5.622s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extension 'ignore_ament_install'
+[5.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extensions ['colcon_pkg']
+[5.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extension 'colcon_pkg'
+[5.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extensions ['colcon_meta']
+[5.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extension 'colcon_meta'
+[5.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extensions ['ros']
+[5.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extension 'ros'
+[5.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extensions ['cmake', 'python']
+[5.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extension 'cmake'
+[5.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extension 'python'
+[5.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extensions ['python_setup_py']
+[5.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(models) by extension 'python_setup_py'
+[5.627s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.627s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[5.627s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[5.627s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[5.627s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[5.627s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[5.627s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[5.629s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[5.629s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[5.629s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[5.629s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[5.629s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[5.631s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[5.631s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[5.632s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\firescout_robot) by extensions ['ignore', 'ignore_ament_install']
+[5.632s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\firescout_robot) by extension 'ignore'
+[5.632s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\firescout_robot) by extension 'ignore_ament_install'
+[5.632s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\firescout_robot) by extensions ['colcon_pkg']
+[5.632s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\firescout_robot) by extension 'colcon_pkg'
+[5.632s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\firescout_robot) by extensions ['colcon_meta']
+[5.632s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\firescout_robot) by extension 'colcon_meta'
+[5.632s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\firescout_robot) by extensions ['ros']
+[5.632s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\firescout_robot) by extension 'ros'
+[5.671s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\firescout_robot' with type 'ros.ament_python' and name 'firescout_robot'[0m
+[5.671s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[5.671s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[5.671s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[5.671s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[5.671s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[5.896s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'firescout_robot' build argument 'cmake_args' from command line to 'None'
+[5.896s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'firescout_robot' build argument 'cmake_target' from command line to 'None'
+[5.896s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'firescout_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.896s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'firescout_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[5.896s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'firescout_robot' build argument 'cmake_clean_first' from command line to 'False'
+[5.896s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'firescout_robot' build argument 'cmake_force_configure' from command line to 'False'
+[5.896s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'firescout_robot' build argument 'ament_cmake_args' from command line to 'None'
+[5.896s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'firescout_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[5.896s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'firescout_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.896s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'firescout_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\FireScout_ROS\\build\\firescout_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\FireScout_ROS\\install\\firescout_robot', 'merge_install': False, 'path': 'C:\\FireScout_ROS\\src\\firescout_robot', 'symlink_install': False, 'test_result_base': None}[0m
+[5.901s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[5.903s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[5.905s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in 'C:\FireScout_ROS\src\firescout_robot' with build type 'ament_python'
+[5.905s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('firescout_robot', 'ament_prefix_path')
+[5.913s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.sh': Not used on Windows systems
+[5.915s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\FireScout_ROS\install\firescout_robot\share\firescout_robot\hook\ament_prefix_path.ps1'
+[5.932s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\FireScout_ROS\install\firescout_robot\share\firescout_robot\hook\ament_prefix_path.bat'
+[5.981s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\FireScout_ROS\install\firescout_robot\share\firescout_robot\hook\ament_prefix_path.dsv'
+[5.997s] [34mcolcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id[0m [1;30mDEBUG[0m [32mAllocated ROS_DOMAIN_ID=64 for 'C:\FireScout_ROS\build\firescout_robot'[0m
+[5.997s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'ros_domain_id' for command environment: 
+[5.997s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.926s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in 'C:\FireScout_ROS\src\firescout_robot'
+[7.927s] [34mcolcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id[0m [1;30mDEBUG[0m [32mAllocated ROS_DOMAIN_ID=64 for 'C:\FireScout_ROS\build\firescout_robot'[0m
+[7.927s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'ros_domain_id' for command environment: 
+[7.927s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.892s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\FireScout_ROS\src\firescout_robot': PIXI_PROMPT=(pixi_ros2_jazzy) PYTHONPATH=C:\FireScout_ROS\build\firescout_robot\prefix_override;C:\pixi_ws\.pixi\envs\default\Lib\site-packages\colcon_core\task\python\colcon_distutils_commands;C:\FireScout_ROS\install\firescout_robot\Lib\site-packages;%PYTHONPATH% C:\pixi_ws\.pixi\envs\default\python.exe -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ..\..\build\firescout_robot build --build-base C:\FireScout_ROS\build\firescout_robot\build install --record C:\FireScout_ROS\build\firescout_robot\install.log --single-version-externally-managed install_data[0m
+[18.635s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\FireScout_ROS\src\firescout_robot' returned '0': PIXI_PROMPT=(pixi_ros2_jazzy) PYTHONPATH=C:\FireScout_ROS\build\firescout_robot\prefix_override;C:\pixi_ws\.pixi\envs\default\Lib\site-packages\colcon_core\task\python\colcon_distutils_commands;C:\FireScout_ROS\install\firescout_robot\Lib\site-packages;%PYTHONPATH% C:\pixi_ws\.pixi\envs\default\python.exe -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ..\..\build\firescout_robot build --build-base C:\FireScout_ROS\build\firescout_robot\build install --record C:\FireScout_ROS\build\firescout_robot\install.log --single-version-externally-managed install_data[0m
+[18.668s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\FireScout_ROS\install\firescout_robot' for CMake module files
+[18.675s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\FireScout_ROS\install\firescout_robot' for CMake config files
+[18.679s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\FireScout_ROS\install\firescout_robot\bin'
+[18.680s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\FireScout_ROS\install\firescout_robot\bin'
+[18.680s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\FireScout_ROS\install\firescout_robot\lib\pkgconfig\firescout_robot.pc'
+[18.680s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\FireScout_ROS\install\firescout_robot\Lib\site-packages'
+[18.681s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('firescout_robot', 'pythonpath')
+[18.681s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\FireScout_ROS\install\firescout_robot\share\firescout_robot\hook\pythonpath.ps1'
+[18.684s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\FireScout_ROS\install\firescout_robot\share\firescout_robot\hook\pythonpath.bat'
+[18.688s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\FireScout_ROS\install\firescout_robot\share\firescout_robot\hook\pythonpath.dsv'
+[18.691s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\FireScout_ROS\install\firescout_robot\Scripts'
+[18.691s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(firescout_robot)
+[18.692s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\FireScout_ROS\install\firescout_robot\share\firescout_robot\package.ps1'
+[18.737s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\FireScout_ROS\install\firescout_robot\share\firescout_robot\package.bat'
+[18.761s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\FireScout_ROS\install\firescout_robot\share\firescout_robot\package.dsv'
+[18.785s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\FireScout_ROS\install\firescout_robot\share\colcon-core\packages\firescout_robot)
+[18.787s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[18.788s] [34mcolcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id[0m [1;30mDEBUG[0m [32mReleased ROS_DOMAIN_ID=64 for 'C:\FireScout_ROS\build\firescout_robot'[0m
+[18.788s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[18.793s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[18.793s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script 'C:\FireScout_ROS\install\local_setup.ps1'
+[18.829s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module 'C:\FireScout_ROS\install\_local_setup_util_ps1.py'
+[18.855s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script 'C:\FireScout_ROS\install\setup.ps1'
+[18.885s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script 'C:\FireScout_ROS\install\local_setup.bat'
+[18.931s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module 'C:\FireScout_ROS\install\_local_setup_util_bat.py'
+[18.934s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script 'C:\FireScout_ROS\install\setup.bat'

@@ -1,0 +1,8 @@
+source;ros_domain_id.txt
+source;share\firescout_robot\hook\pythonpath.ps1
+source;share\firescout_robot\hook\pythonpath.bat
+source;share\firescout_robot\hook\pythonpath.dsv
+source;ros_domain_id.txt
+source;share\firescout_robot\hook\ament_prefix_path.ps1
+source;share\firescout_robot\hook\ament_prefix_path.bat
+source;share\firescout_robot\hook\ament_prefix_path.dsv

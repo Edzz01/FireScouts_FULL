@@ -1,0 +1,13 @@
+[console_scripts]
+aim_controller = firescout_robot.aim_controller:main
+arduino_bridge = firescout_robot.arduino_bridge:main
+extinguisher_controller = firescout_robot.extinguisher_controller:main
+fire_decision = firescout_robot.fire_decision:main
+fire_detector = firescout_robot.fire_detector_node:main
+fire_response = firescout_robot.fire_response:main
+motor_controller = firescout_robot.motor_controller:main
+robot_controller = firescout_robot.robot_controller:main
+robot_state = firescout_robot.robot_state:main
+robot_status = firescout_robot.robot_status:main
+sensor_simulator = firescout_robot.sensor_simulator:main
+web_bridge = firescout_robot.web_bridge:main

@@ -1,0 +1,30 @@
+running egg_info
+creating ..\..\build\firescout_robot\firescout_robot.egg-info
+writing ..\..\build\firescout_robot\firescout_robot.egg-info\PKG-INFO
+writing dependency_links to ..\..\build\firescout_robot\firescout_robot.egg-info\dependency_links.txt
+writing requirements to ..\..\build\firescout_robot\firescout_robot.egg-info\requires.txt
+writing top-level names to ..\..\build\firescout_robot\firescout_robot.egg-info\top_level.txt
+writing manifest file '..\..\build\firescout_robot\firescout_robot.egg-info\SOURCES.txt'
+reading manifest file '..\..\build\firescout_robot\firescout_robot.egg-info\SOURCES.txt'
+writing manifest file '..\..\build\firescout_robot\firescout_robot.egg-info\SOURCES.txt'
+running build
+running build_py
+creating C:\FireScout_ROS\build\firescout_robot\build
+creating C:\FireScout_ROS\build\firescout_robot\build\lib
+creating C:\FireScout_ROS\build\firescout_robot\build\lib\firescout_robot
+copying firescout_robot\__init__.py -> C:\FireScout_ROS\build\firescout_robot\build\lib\firescout_robot
+running install
+running install_lib
+creating C:\FireScout_ROS\install\firescout_robot\Lib\site-packages\firescout_robot
+copying C:\FireScout_ROS\build\firescout_robot\build\lib\firescout_robot\__init__.py -> C:\FireScout_ROS\install\firescout_robot\Lib\site-packages\firescout_robot
+byte-compiling C:\FireScout_ROS\install\firescout_robot\Lib\site-packages\firescout_robot\__init__.py to __init__.cpython-312.pyc
+running install_data
+creating C:\FireScout_ROS\install\firescout_robot\share\ament_index
+creating C:\FireScout_ROS\install\firescout_robot\share\ament_index\resource_index
+creating C:\FireScout_ROS\install\firescout_robot\share\ament_index\resource_index\packages
+copying resource\firescout_robot -> C:\FireScout_ROS\install\firescout_robot\share\ament_index\resource_index\packages
+copying package.xml -> C:\FireScout_ROS\install\firescout_robot\share\firescout_robot
+running install_egg_info
+Copying ..\..\build\firescout_robot\firescout_robot.egg-info to C:\FireScout_ROS\install\firescout_robot\Lib\site-packages\firescout_robot-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to 'C:\FireScout_ROS\build\firescout_robot\install.log'

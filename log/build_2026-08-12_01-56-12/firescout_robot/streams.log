@@ -1,0 +1,25 @@
+[3.094s] Invoking command in 'C:\FireScout_ROS\src\firescout_robot': PIXI_PROMPT=(pixi_ros2_jazzy) PYTHONPATH=C:\FireScout_ROS\build\firescout_robot\prefix_override;C:\pixi_ws\.pixi\envs\default\Lib\site-packages\colcon_core\task\python\colcon_distutils_commands;C:\FireScout_ROS\install\firescout_robot\Lib\site-packages;%PYTHONPATH% C:\pixi_ws\.pixi\envs\default\python.exe -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ..\..\build\firescout_robot build --build-base C:\FireScout_ROS\build\firescout_robot\build install --record C:\FireScout_ROS\build\firescout_robot\install.log --single-version-externally-managed install_data
+[3.906s] running egg_info
+[3.953s] writing ..\..\build\firescout_robot\firescout_robot.egg-info\PKG-INFO
+[3.953s] writing dependency_links to ..\..\build\firescout_robot\firescout_robot.egg-info\dependency_links.txt
+[3.953s] writing entry points to ..\..\build\firescout_robot\firescout_robot.egg-info\entry_points.txt
+[3.953s] writing requirements to ..\..\build\firescout_robot\firescout_robot.egg-info\requires.txt
+[3.953s] writing top-level names to ..\..\build\firescout_robot\firescout_robot.egg-info\top_level.txt
+[4.047s] reading manifest file '..\..\build\firescout_robot\firescout_robot.egg-info\SOURCES.txt'
+[4.063s] writing manifest file '..\..\build\firescout_robot\firescout_robot.egg-info\SOURCES.txt'
+[4.063s] running build
+[4.063s] running build_py
+[4.063s] copying firescout_robot\motor_controller.py -> C:\FireScout_ROS\build\firescout_robot\build\lib\firescout_robot
+[4.078s] running install
+[4.078s] running install_lib
+[4.125s] copying C:\FireScout_ROS\build\firescout_robot\build\lib\firescout_robot\motor_controller.py -> C:\FireScout_ROS\install\firescout_robot\Lib\site-packages\firescout_robot
+[4.125s] byte-compiling C:\FireScout_ROS\install\firescout_robot\Lib\site-packages\firescout_robot\motor_controller.py to motor_controller.cpython-312.pyc
+[4.141s] running install_data
+[4.141s] running install_egg_info
+[4.188s] removing 'C:\FireScout_ROS\install\firescout_robot\Lib\site-packages\firescout_robot-0.0.0-py3.12.egg-info' (and everything under it)
+[4.188s] Copying ..\..\build\firescout_robot\firescout_robot.egg-info to C:\FireScout_ROS\install\firescout_robot\Lib\site-packages\firescout_robot-0.0.0-py3.12.egg-info
+[4.219s] running install_scripts
+[4.563s] Installing fire_decision-script.py script to C:\FireScout_ROS\install\firescout_robot\lib\firescout_robot
+[4.578s] Installing fire_decision.exe script to C:\FireScout_ROS\install\firescout_robot\lib\firescout_robot
+[4.578s] error: [Errno 13] Permission denied: 'C:\\FireScout_ROS\\install\\firescout_robot\\lib\\firescout_robot\\fire_decision.exe'
+[4.625s] Invoked command in 'C:\FireScout_ROS\src\firescout_robot' returned '1': PIXI_PROMPT=(pixi_ros2_jazzy) PYTHONPATH=C:\FireScout_ROS\build\firescout_robot\prefix_override;C:\pixi_ws\.pixi\envs\default\Lib\site-packages\colcon_core\task\python\colcon_distutils_commands;C:\FireScout_ROS\install\firescout_robot\Lib\site-packages;%PYTHONPATH% C:\pixi_ws\.pixi\envs\default\python.exe -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ..\..\build\firescout_robot build --build-base C:\FireScout_ROS\build\firescout_robot\build install --record C:\FireScout_ROS\build\firescout_robot\install.log --single-version-externally-managed install_data
